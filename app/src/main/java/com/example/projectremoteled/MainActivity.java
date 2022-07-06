@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (compoundButton.isChecked()){
+                if (compoundButton.isChecked()) {
 
                     imageviewLight.setImageResource(R.drawable.lamp_off);
                 } else {
@@ -75,4 +75,5 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }
